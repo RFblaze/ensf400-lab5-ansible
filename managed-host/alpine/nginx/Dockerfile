@@ -1,6 +1,6 @@
 FROM nginx:latest
 
 # Copy the configuration file
-COPY ../nignx.cfg /etc/nginx/
+COPY nginx.cfg /etc/nginx/
 
 
