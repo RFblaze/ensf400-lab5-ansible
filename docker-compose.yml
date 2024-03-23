@@ -36,7 +36,7 @@ services:
     ports:
       - 3002:3000
       - 2225:2225
-  nginx-load-balancer:
+  localhost:
     build: 
       context: managed-host/alpine/nginx
     restart: unless-stopped
